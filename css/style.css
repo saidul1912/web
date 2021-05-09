@@ -131,6 +131,13 @@ header {
     background: #001D38 !important;
     color: #fff !important;
 }
+.drop{
+    width: 100%;
+    position: fixed;
+    z-index: 9999999;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all .3s;
+}
 
 /*========================
       category css code
