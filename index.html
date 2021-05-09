@@ -471,6 +471,14 @@
 <script src="js/main.js"crossorigin="anonymous"></script>
 
 <script>
+    
+     window.addEventListener('scroll',function(){
+   var header = document.querySelector('header');
+   header.classList.toggle('drop',window.scrollY>0)
+  });
+    
+    
+    
    $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
