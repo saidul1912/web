@@ -15,6 +15,9 @@
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+   <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
     <!-- custom css file link -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -31,6 +34,9 @@
                          <!-- website logo -->
                        <img src="img/logo.png" class="img-fluid">
                      </a> 
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="collapse navbar-collapse "  id="navbarSupportedContent">
                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                           <li class="nav-item">
@@ -114,7 +120,7 @@
        
      <section class="category-section">
            <div class="cat-box row">            
-            <div class="col-xl-4 col-lg-4 col-md-4">
+            <div class="col-xl-4 col-lg-4 col-md-4 planbox">
                 <div class="single_prise card1">
                     <div class="prise_header">
                           <h5>Planing</h5>
@@ -196,7 +202,7 @@
                  </div>
               </div>
                   <!-- 2nd work-detls -->
-               <div class="row">
+               <div class="row work2">
                 
                   <div class="col-md-4">
                      <div class="right">
@@ -230,7 +236,7 @@
                  </div>
               </div>
                   <!-- 4th work-detls -->
-               <div class="row">
+               <div class="row work4">
                 
                   <div class="col-md-4">
                      <div class="right">
@@ -308,11 +314,11 @@
                       </div>
                       <div class="col-md-8">
 
-                         <div class="owl-carousel owl-theme">
+                        <div class="owl-carousel owl-theme">
                         <div class="item">
                           <div class="testmonial-contant">
                           <div class="top-contant">
-                           <i class="fas fa-code"></i>
+                           <img src="img/quote.png" alt="">
                            <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor   
                            sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque. 
                            Fusce ac mattis nulla. Morbi eget ornare dui. 
@@ -326,11 +332,6 @@
                        </div>
                         </div>
                         </div>
-                    
-
-
-
-
                       </div>
                       <div class="col-md-2">
                            <div class="right-icon">
@@ -348,7 +349,7 @@
           <!--Instagram section start form here -->
 
           <section class="Instagram">
-                <div class="container">
+                <div class="container">    
                    <div class="row">
                       <div class="col-md-12">
                           <div class="ins-title">
@@ -356,24 +357,26 @@
                           </div>
                       </div>
                    </div>
-                   
-                  <div class="row">
-                     <div class="col-md-4">
-                        <div class="ins-img">
-                          <img src="img/Instagram01.png" alt="">
-                        </div>
-                     </div>
-                     <div class="col-md-4">
-                         <div class="ins-img">
-                          <img src="img/Instagram02.png" alt="">
-                        </div>
-                     </div>
+                     
+                        <div class="row">
+                              <div class="col-md-4">
+                                 <div class="ins-img">
+                                 <img src="img/Instagram01.png" alt="">
+                             </div>
+                           </div>
+                       <div class="col-md-4">
+                           <div class="ins-img ins4">
+                               <img src="img/Instagram02.png" alt="">
+                           </div>
+                       </div>
                      <div class="col-md-4">
                          <div class="ins-img">
                           <img src="img/Instagram03.png" alt="">
+                         </div>
                         </div>
-                     </div>
-                  </div>
+                      </div>
+                      
+                    
                 </div>
           </section>
              
@@ -471,22 +474,24 @@
 <script src="js/main.js"crossorigin="anonymous"></script>
 
 <script>
-    
-     window.addEventListener('scroll',function(){
+
+  window.addEventListener('scroll',function(){
    var header = document.querySelector('header');
    header.classList.toggle('drop',window.scrollY>0)
   });
-    
-    
-    
+
+</script>
+
+<script>
+
    $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
     dots:false,
-    autoplay:true,
+    autoplay:false,
     autoplayTimeout:3000,
-    autoplayHoverPause:true,
+    autoplayHoverPause:false,
 
     responsive:{
         0:{
@@ -499,8 +504,36 @@
             items:1
         }
     }
-})
+});
 </script>
+
+<script>
+
+   $('.owl-carousel02').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    autoplay:false,
+    autoplayTimeout:3000,
+    autoplayHoverPause:false,
+
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+</script>
+
+
+
 
 </body>
 </html>

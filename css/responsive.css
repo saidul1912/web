@@ -1,0 +1,387 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS */
+
+  .single_prise{
+      padding: 0px !important;
+  }
+.prise_header h5{
+    font-size: 27px !important;
+    margin-left: 15px !important;
+    padding-top: 20px !important;
+}
+.prise_text{
+    padding: 13px !important;
+}
+.our-work h1{
+        text-align: center !important;
+        margin-top: -66px !important;
+}
+.work-detls .col-md-4{
+    display: block !important;
+}
+.work-detls .right p{
+    width: auto !important;
+}
+.work-detls .right {
+    margin-left: 15px !important;
+}
+.work-detls .left {
+    margin-right: -20px !important;
+}
+.f-Subscribe{
+        margin-left: 36px !important;
+         width: auto !important;
+}
+.fsi-right button{
+    right: -166px !important;
+}
+
+.ins-img {
+    width: auto;
+}
+
+.ins-img img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+.card1 {
+    padding: 0px !important; 
+   
+}
+.card2 {
+    padding: 0px !important;
+
+}
+.card3 {
+    padding: 0px !important;
+
+}
+
+.prise_header h5{
+        font-size: 23px !important;
+        padding-left: 44px !important;
+        margin-left: 22px !important;
+        padding-top: 34px !important;
+}
+.prise_text{
+    padding: 15px !important;
+}
+.prise_header h5::before{
+        top: 73% !important;
+}
+.our-work h1{
+    text-align:center  !important;
+        margin-top: -70px !important;
+}
+.work-detls .left{
+    width: 100% !important;
+}
+.work-detls .right{
+    margin-left: 0px !important;
+}
+.work-detls .right p{
+    width: auto !important;
+}
+.ab-right {
+    margin-left: 30px !important;
+   
+}
+.ab-right p{
+    width: auto !important;
+}
+.testmonial-section{
+    padding: 32px 0px !important;
+}
+.f-Subscribe{
+    width: auto !important;
+    margin-left: 50px !important;
+}
+.fsi-right button {
+    padding: 9px 13px !important;
+    right: -159px !important;
+    bottom: 205px !important;
+}
+
+.ins-img {
+    width: auto;
+}
+.ins-img img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .single_prise.card1 {
+    padding: 0px !important;
+}
+.category-section{
+    width: 83% !important;
+    margin-left: 72px !important;
+    margin-top: 20px !important;
+}
+.our-work{
+   padding: 110px 0px 312px 0px !important;
+}
+.our-work h1{
+    text-align: center !important;
+}  */
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+.work-detls .left {
+    margin-bottom: 10px !important;
+}
+.row.work2 {
+    flex-direction: column-reverse;
+}
+.row.work4 {
+    flex-direction: column-reverse;
+}
+.about-section {
+  
+display: flex;
+   
+}
+.testmonial-section{
+    padding: 0px !important;
+}
+.ins-img{
+    margin-bottom: 30px !important;
+}
+.ins-img.ins4 {
+    text-align: right !important;
+}
+.f-Address h3{
+    font-size: 32px !important;
+}
+.f-Address ul li{
+    font-size: 20px !important;
+}
+.f-Services h3 {
+    font-size: 32px !important;
+    margin-top: 15px !important;
+}
+
+.f-Services ul li {
+    font-size: 20px !important;
+}
+.f-Company h3 {
+    font-size: 32px !important;
+    margin-top: 20px !important;
+}
+
+.f-Company ul li {
+    font-size: 20px !important;
+}
+.f-Subscribe{
+    width: auto !important;
+    margin-left: 0px !important;
+}
+.f-Subscribe h3{
+        margin-top: 15px !important;
+}
+.fsi-right button{
+        right: -141px !important;
+        bottom: 89px !important;
+}
+.footer-copy p{
+        margin-top: -140px !important;
+        padding: 0px 140px !important;
+}
+
+
+
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+.bennar{
+    height: auto !important;
+}
+.single_prise{
+    padding: 40px 70px !important;
+}
+
+.our-work{
+        padding: 100px 0px 270px 0px !important;
+        text-align: center;
+}
+.work-detls{
+    text-align: center;
+}
+.work-detls .right{
+    margin-left: 0px !important;
+}
+.work-detls .right p{
+    width: auto !important;
+}
+.work-detls .right h1{
+     margin-top: 10px;
+}
+.work-detls .work2{
+    flex-direction: column-reverse !important;
+  
+}
+.work-detls .work4 {
+    flex-direction: column-reverse !important;
+
+}
+
+.about-section {
+     padding: 0px !important;
+     display: block !important; 
+     margin-top: 0px !important; 
+}
+.ab-right{
+      margin-left:0px !important;
+}
+.ab-right{
+        width: 100% !important;
+        text-align: center !important;
+}
+.ab-right h1{
+    text-align: center !important;
+    font-size: 40px !important;
+}
+button#wr-btn{
+        margin-bottom: 25px;
+}
+.ab-item{
+     margin-left: -5px !important;
+}
+.ab-item .per1 h5{
+        margin-right: 95px !important;
+}
+.ab-item .per2 h5{
+    margin-right: 135px !important;
+}
+.ab-item .per3 h5{
+    margin-right: 215px !important;
+}
+.testmonial-section{
+    padding: 0px !important;
+}
+.left-icon{
+        margin-left: 20px !important; 
+        margin-top: 60px !important;
+}
+.ins-img{
+    margin-bottom: 15px;
+     width: auto;
+}
+.ins-img img {
+    width: 100%;
+}
+
+
+
+.ft-left h2{
+        font-size: 27px !important;
+        line-height: 30px !important;
+}
+.ft-left h3 {
+    font-size: 30px !important;
+}
+.ft-right h3 {
+    font-size: 30px !important;
+  
+}
+.ft-left {
+    margin-bottom: 25px !important;
+    margin-top: -40px !important;
+}
+.sub-footer {
+   
+    margin-top: 70px !important;
+    margin-left: 10px !important;
+}
+.f-Subscribe {
+    margin-left: 0 !important;
+    width: auto  !important;
+    height: 260px !important;
+}
+.fsi-right button {
+ 
+    right: -191px !important;
+    bottom: 229px !important;
+}
+
+
+}

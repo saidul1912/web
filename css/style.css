@@ -122,7 +122,7 @@ header {
 
 .navbar {
 
-    padding: 5px 145px;
+
 
     z-index: 200;
 }
@@ -131,6 +131,8 @@ header {
     background: #001D38 !important;
     color: #fff !important;
 }
+
+
 .drop{
     width: 100%;
     position: fixed;
@@ -138,7 +140,6 @@ header {
     background: rgba(0, 0, 0, 0.6);
     transition: all .3s;
 }
-
 /*========================
       category css code
  =========================*/
@@ -166,18 +167,24 @@ header {
 
 .card1:hover {
     background-image: url(../img/card01.png);
-
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
 .card2:hover {
     background-image: url(../img/card02.png);
-
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
 }
 
 .card3:hover {
     background-image: url(../img/card03.png);
-
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .prise_header h5 {
